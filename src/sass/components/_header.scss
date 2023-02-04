@@ -3,6 +3,7 @@
   .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 // .navigation {
@@ -11,7 +12,7 @@
 .nav-list {
   display: flex;
   gap: 106px;
-  margin-left: 389px;
+  margin-left: 360px;
   margin-right: 64px;
 }
 // .nav-item {
