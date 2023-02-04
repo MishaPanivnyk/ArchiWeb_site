@@ -1,0 +1,48 @@
+.hero {
+  padding-top: 50px;
+  position: relative;
+}
+.hero__text-container {
+  padding: 138px 166px;
+  background: linear-gradient(
+    91.1deg,
+    rgba(244, 246, 245, 0.9) -7.89%,
+    rgba(255, 255, 255, 0.9) 132.55%
+  );
+  position: absolute;
+  top: 186px;
+  left: 220px;
+}
+.hero__title {
+  font-family: 'Playfair Display';
+  font-size: 51px;
+  max-width: 425px;
+  line-height: 1.18;
+  margin-bottom: 10px;
+}
+.hero__text {
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1.22;
+  max-width: 436;
+}
+.hero__img {
+  margin-left: 250px;
+  //   left: 290px;
+}
+.hero__arrow-container {
+  position: absolute;
+  padding: 16px 32px;
+  background: rgba(244, 246, 245, 0.7);
+  right: 369px;
+  top: 730px;
+}
+.hero__arrow-left {
+  margin-right: 50px;
+  fill: #3c3d41;
+  cursor: pointer;
+}
+.hero__arrow-right {
+  fill: #3c3d41;
+  cursor: pointer;
+}
